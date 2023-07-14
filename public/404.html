@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0; url=/<repository-name>/">
+    <script>
+      const pathname = window.location.pathname;
+      const matchUserRoute = /^\/user\/\d+\/?$/.test(pathname);
+
+      if (matchUserRoute) {
+        const url = '/<repository-name>' + pathname;
+        window.location.href = url;
+      } else {
+        window.location.href = '/<repository-name>/';
+      }
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
