@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/crypto_project/static/js/main.cf2f9934.js",
+    "static/media/btc.png": "/crypto_project/static/media/btc.04101b0b163c035fa57e.png",
+    "static/media/mypic.jpeg": "/crypto_project/static/media/mypic.7fe88cd2401b5fbf8aca.jpeg",
+    "index.html": "/crypto_project/index.html",
+    "main.cf2f9934.js.map": "/crypto_project/static/js/main.cf2f9934.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.cf2f9934.js"
+  ]
+}
