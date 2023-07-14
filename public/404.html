@@ -8,10 +8,10 @@
       const matchUserRoute = /^\/user\/\d+\/?$/.test(pathname);
 
       if (matchUserRoute) {
-        const url = '/<repository-name>' + pathname;
+        const url = '/crypto_project/coins/' + pathname;
         window.location.href = url;
       } else {
-        window.location.href = '/<repository-name>/';
+        window.location.href = '/crypto_project/';
       }
     </script>
   </head>
